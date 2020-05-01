@@ -3,7 +3,7 @@ This is my first attempt at creating a raycaster, mimicking 3D operations with t
 
 To compile this first ensure all of your includes at the top are pointing at the right files for your own setup. 
 
-Then run the following command: 
+Then run the following command(in MinGW): 
 
         gcc raycaster.c -o yourNameForTheExE GL/glut32.lib -lopengl32 -lglu32 -lm 
 
